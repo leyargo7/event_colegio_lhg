@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="/css/style.css"> -->
+    <title>Fundación Ideal</title>
+</head>
+<body>
+    <img src="/img/logoideal.png" class="img-fluid rounded mx-auto d-block">
+
+    <!-- <div class="accordion" id="accordionExample">   
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button d-block text-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Sesión Sincrónica #1
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+
+                <div class="container d-flex justify-content-center">
+                    <div class="col-md-5">
+                        <div class="card bg-dark">
+                            <div class="card-body">
+                                <form action="/addFun" method="POST" autocomplete="off">
+                                    <div class="form-group">
+                                        <input type="text" name="name" placeholder="Nombre y Apellidos" class="form-control text-center" required>
+                                    </div>
+                                    <div class="d-grid gap-2">
+                                        <button type="submit" class="btn btn-primary mt-2">
+                                            Ingresar
+                                            
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed d-block text-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Sesión Sincrónica #2
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed d-block text-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Sesión Sincrónica #3
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+              <button class="accordion-button collapsed d-block text-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                Sesión Sincrónica #4
+              </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFive">
+              <button class="accordion-button collapsed d-block text-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                Sesión Sincrónica # 5
+              </button>
+            </h2>
+            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+      </div> -->
+
+      <div class="container d-flex justify-content-center">
+        <div class="col-md-5">
+            <div class="card bg-dark">
+                <div class="card-body">
+                    <form action="/addFun" method="POST" autocomplete="off">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Nombre y Apellidos" class="form-control text-center" required>
+                        </div>
+                          <div class="mt-1">
+                          <!-- <select class="form-select mb-3 d-block text-center" aria-label=".form-select-lg example">
+                            <option id="opcion" selected>Selecciona la sesión</option>
+                            <option value="1">Sesión Sincrónica #1</option>
+                            <option value="2">Sesión Sincrónica #2</option>
+                            <option value="3">Sesión Sincrónica #3</option>
+                            <option value="4">Sesión Sincrónica #4</option>
+                            <option value="5">Sesión Sincrónica #5</option>
+                          </select> -->
+                          
+                              <label for="validationCustom04" class="form-label">State</label>
+                                <select class="form-select mb-3 d-block text-center" name="sesiones" id="validationCustom04" required>
+                                  <option selected disabled value="">Selecciona la sesión </option>
+                                  <option value="1">Sesión Sincrónica #1</option>
+                                  <option value="2">Sesión Sincrónica #2</option>
+                                  <option value="3">Sesión Sincrónica #3</option>
+                                  <option value="4">Sesión Sincrónica #4</option>
+                                  <option value="5">Sesión Sincrónica #5</option>
+                                </select>
+                              <div class="invalid-feedback">
+                                Please select a valid state.
+                              </div>
+                          
+                          </div>  
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-primary mt-2">
+                                Ingresar
+                                
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+      
+    
+
+    <!-- footer -->
+    <div style="margin-top:0px;">
+        <footer class="bg-primary fixed-bottom">
+            <div class="container-fluid p-1 text-white text-center">
+                <p><i class="fas fa-heart"></i>
+                    Con amor GpxCode &copy; 2021</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

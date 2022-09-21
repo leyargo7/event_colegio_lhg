@@ -1,0 +1,382 @@
+html {
+    overflow:hidden;
+}
+
+#port {
+    position: relative;
+    background-image: url('../img/olgaV.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 400px 640px;
+    background-color: black;
+    overflow: hidden;
+}
+
+#register {
+    margin-top: 40px;
+    /* margin-left: 30px; */
+    
+}
+#messageIntro{
+    margin-top: 270px;
+    margin-left: 90px;
+    text-align: center;
+    
+}
+.team {
+    /* background:purple; */
+}
+
+.portada {
+
+    width: 100%;
+	
+
+    min-height: 100vh;
+	/* position: fixed; */
+    
+	top:0;
+	left: 0;
+	right: 0;
+    
+    display: flex;
+    flex-direction: column;
+	align-items: center;
+	/* justify-content: center; */
+	text-align: center;
+	transition: .5s ease-out all;
+}
+
+
+
+#logo {
+   
+    /* margin-top: 200px;
+    width: 100%; */
+}
+/* .title-evento {
+    margin-top: 100px;
+} */
+
+#cuenta {
+	display: flex;
+    margin-top: 250px;
+    /* margin-left: 60px; */
+
+    width: 5%;
+	/* justify-content: center; */
+	
+}
+
+/* ? ----- Cuenta Regresiva ----- */
+
+
+
+.simply-section {
+	/* background: gray; */
+	width: 120px;
+	height: 90px;
+	margin: 0 5px;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.simply-amount {
+    
+	display: flex;
+    justify-content: center;
+    height: 50px;
+	font-size: 46px;
+	font-weight: 700;
+}
+
+.simply-word {
+    
+	font-weight: 350;
+	font-size: 18px;
+}
+
+/* ? ---------------------------- */
+/* pantalla pequeña horizontal */
+@media (min-width: 300px){
+    #port {
+        
+        background-image: url('../img/olgaV.png');
+        background-position: top;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 320px 660px;
+        background-color: black;
+        /* overflow: hidden; */
+    }
+    
+    #cuenta {
+        display: flex;
+        margin-top: 400px;
+        /* margin-left: 10px; */
+        margin-right: 160px;
+    
+        width: 5%;
+        /* justify-content: center; */
+        
+    }
+    #messageIntro{
+        margin-top: 210px;
+        /* margin-left: 90px; */
+        margin-right: 100px;
+        font-size: 12px;
+        background-color: darkmagenta;
+        border-radius: 10%;
+        
+    }
+    #register {
+        margin-top: 140px;
+        /* margin-left: 30px; */
+
+    }
+}
+
+/* pantalla iphone 8plus vertical */
+@media (min-width: 400px){
+    #port {
+        position: relative;
+        background-image: url('../img/olgaV.png');
+        background-position: top;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 400px 700px;
+        background-color: black;
+        overflow: hidden;
+    }
+    
+    #cuenta {
+        display: flex;
+        
+        justify-content: center;
+        margin-top: 490px;
+        margin-left: 50px;
+        width: 5%;
+    }
+    #messageIntro{
+        margin-top: 210px;
+        /* margin-left: 90px; */
+        margin-right: 100px;
+        font-size: 18px;
+        background-color: darkmagenta;
+        border-radius: 10%;
+        
+    }
+    #register {
+        margin-top: 220px;
+        /* margin-left: 30px; */
+
+    }
+}
+@media (min-width: 600px){
+    #port {
+       
+        background-image: url('../img/olgaH.png');
+        background-position: top;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 660px 360px;
+        background-color: orange;
+        
+        overflow: hidden;
+    }
+   
+    #cuenta {
+        display: flex;
+        margin-top: 260px;
+        margin-left: 30px;
+    
+        width: 5%;
+        /* justify-content: center; */
+        
+    }
+    #messageIntro{
+        margin-top: 90px;
+        /* margin-left: 90px; */
+        margin-right: 100px;
+        font-size: 16px;
+        background-color: darkmagenta;
+        border-radius: 10%;
+        
+        
+    }
+    #register {
+        margin-top: 20px;
+        /* margin-left: 30px; */
+        display: flex;
+        justify-content: center;
+
+    }
+}
+
+
+/* horizontal iphone8plus tablet vertical ipad vertical*/
+/* horizontal iphone = se ve igual vertical ipad*/
+@media (min-width: 700px){
+    #port {
+       
+        background-image: url('../img/olgaH.png');
+        background-position: top;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 660px 360px;
+        background-color: orange;
+        
+        overflow: hidden;
+    }
+   
+    #cuenta {
+        display: flex;
+        margin-top: 260px;
+        margin-left: 30px;
+    
+        width: 5%;
+        /* justify-content: center; */
+        
+    }
+    #messageIntro{
+        margin-top: 195px;
+        /* margin-left: 90px; */
+        margin-right: 100px;
+        font-size: 20px;
+        background-color: darkmagenta;
+        border-radius: 10%;
+        
+        
+    }
+    #register {
+        margin-top: 20px;
+        /* margin-left: 30px; */
+        display: flex;
+        justify-content: center;
+
+    }
+}
+
+
+
+/* pantalla horizontal ipad */
+@media (min-width: 900px){
+    #port {
+        /* position: relative; */
+        background-image: url('../img/olgaH.png');
+        background-position: top;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 1100px 590px;
+        background-color: black;
+        overflow: hidden;
+    }
+    
+    #cuenta {
+        display: flex;
+        margin-top: 560px;
+        margin-left: 530px;
+    
+        width: 5%;
+        /* justify-content: center; */
+    }
+    #messageIntro{
+        margin-top: 415px;
+        /* margin-left: 90px; */
+        margin-right: 100px;
+        font-size: 20px;
+        background-color: darkmagenta;
+        border-radius: 10%;
+        
+        
+    }
+    #register {
+        margin-top: 20px;
+        /* margin-left: 30px; */
+        display: flex;
+        justify-content: center;
+
+    }
+}
+
+
+/* pantalla horizontal pc tablet */
+@media (min-width: 1300px){
+    #port {
+        /* position: relative; */
+        background-image: url('../img/olgaH.png');
+        background-position: top;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 1210px 660px;
+        background-color: orange;
+        overflow: hidden;
+    }
+    
+    #cuenta {
+        display: flex;
+        margin-top: 500px;
+        margin-right: 20px;
+    
+        width: 5%;
+        /* justify-content: center; */
+        
+    }
+    #messageIntro{
+        margin-top: 450px;
+        /* margin-left: 90px; */
+        margin-right: 100px;
+        font-size: 20px;
+        background-color: darkmagenta;
+        border-radius: 10%;
+        
+    }
+    #register {
+        margin-top: 20px;
+        /* margin-left: 30px; */
+        display: flex;
+        justify-content: center;
+
+    }
+}
+
+/* pantalla grande */
+@media (min-width: 1600px){
+    #port {
+        /* position: relative; */
+        background-image: url('../img/olgaH.png');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 1600px 820px;
+        background-color: black;
+        overflow: hidden;
+    }
+    
+    #cuenta {
+        display: flex;
+        margin-top: 460px;
+        margin-left: 1110px;
+    
+        width: 5%;
+        /* justify-content: center; */
+    }
+    #messageIntro{
+        margin-top: 660px;
+        /* margin-left: 90px; */
+        margin-right: 100px;
+        font-size: 20px;
+        background-color: darkmagenta;
+        border-radius: 10%;
+    }
+    #register {
+        margin-top: 20px;
+        /* margin-left: 30px; */
+        display: flex;
+        justify-content: center;
+
+    }
+}

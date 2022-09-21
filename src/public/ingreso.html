@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Session Gpx</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="/">GoPraxis Session</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <!-- <a class="btn btn-primary" href="/">Regresar</a> -->
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <section class="mt-5 text-center" >
+          <h1>Ingresa a tu evento</h1>
+      </section>
+
+      <section>
+        <div class="container bg-light mt-5">
+            <div class="row d-flex justify-content-center">
+                
+                <div class="col-md-5">
+                    <div class="card bg-secondary">
+                        <div class="card-body">
+                            <form action="/event" method="POST">
+                                
+                                <div class="form-group mt-3">
+                                    <input type="password" name="password" placeholder="Contraseña" class="form-control text-center">
+                                </div>
+                                
+                                <!-- <div class="form-group mt-3">
+                                    <input type="text" name="estado" placeholder="Teléfono" value="Activo" class="collapse form-control">
+                                </div> -->
+                                <div class="d-grid gap-2">
+                                    <button type="submit" class="btn btn-primary mt-4">
+                                        Entrar                                        
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <div style="margin-top:210px; position:relative;">
+        <footer class="bg-dark">
+            <div class="container-fluid p-1 text-white text-center">
+                <p><i class="fas fa-heart"></i>
+                    Con amor GpxCode &copy; 2021</p>
+            </div>
+        </footer>
+    </div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,157 @@
+#navColor {
+    background-color: black;
+}
+
+/* movil vertical */
+@media (min-width: 320px){
+    #intro{
+        
+        /* width: 1920px;
+        height: 1080px; */
+        background-image: url('../img/verticalCol.jpeg');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 320px 560px;
+        background-color: black;
+    }
+
+    #buttonPay {
+        margin-top: 180px;
+    }
+}
+
+/* movil vertical */
+@media (min-width: 375px){
+    #intro{
+        
+        /* width: 1920px;
+        height: 1080px; */
+        background-image: url('../img/verticalCol.jpeg');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 320px 560px;
+        background-color: black;
+    }
+
+    #buttonPay {
+        margin-top: 140px;
+    }
+}
+
+/* movil horizontal */
+@media (min-width: 480px){
+    #intro{
+        
+        /* width: 1920px;
+        height: 1080px; */
+        background-image: url('../img/horizontalCol.jpeg');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 590px 310px;
+        background-color: black;
+    }
+
+    #buttonPay {
+        margin-top: 20px;
+    }
+}
+
+/* tablet vertical */
+@media (min-width: 768px){
+    #intro{
+        
+        /* width: 1920px;
+        height: 1080px; */
+        background-image: url('../img/verticalCol.jpeg');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 520px 860px;
+        background-color: black;
+    }
+
+    #buttonPay {
+        margin-top: 180px;
+    }
+}
+
+/* movil horizontal 800 */
+@media (min-width: 800px){
+    #intro{
+        
+        /* width: 1920px;
+        height: 1080px; */
+        background-image: url('../img/horizontalCol.jpeg');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 720px 340px;
+        background-color: black;
+    }
+
+    #buttonPay {
+        margin-top: 100px;
+    }
+}
+
+
+/* tablet horizontal */
+@media (min-width: 1024px){
+    #intro{
+        
+        /* width: 1920px;
+        height: 1080px; */
+        background-image: url('../img/horizontalCol.jpeg');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 1080px 580px;
+        background-color: black;
+    }
+
+    #buttonPay {
+        margin-top: 100px;
+    }
+}
+/* laptop */
+@media (min-width: 1200px){
+    #intro{
+        
+        /* width: 1920px;
+        height: 1080px; */
+        background-image: url('../img/horizontalCol.jpeg');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 1080px 580px;
+        background-color: black;
+    }
+
+    #buttonPay {
+        margin-top: 80px;
+    }
+    
+}
+/* monitores mas grandes */
+@media (min-width: 1400px){
+    #intro{
+        
+        /* width: 1920px;
+        height: 1080px; */
+        background-image: url('../img/horizontalCol.jpeg');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 1430px 800px;
+        background-color: black;
+    }
+
+    #buttonPay {
+        margin-top: 80px;
+    }
+    
+}
+

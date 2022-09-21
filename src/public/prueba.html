@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Noche Artística 2</h1>
+    <p style="margin-top: 30px; font-size: 24px; margin-bottom: 40px;">Bienvenido(a) <strong>Arley Gonzalez</strong> a la noche artística del Colegio Waldorf
+    Luis Horacio Gomez. Un encuentro que invita a disfrutar de la calidez de la música y la magia de la danza. <br><br>
+    <p style="font-style: italic; font-size: 20px;">
+        "Cada hombre es un artista, con facultad creativa que deben ser perfeccionadas y reconocidas".<br>
+        Rudolf Steiner
+    </p>
+    
+    <h1 id="text">arley gonzalez</h1>
+    <input type="submit" value="hola" onclick="clip()">
+
+    <a href="http://localhost:3000/streaming-colegio-lhg">
+        <p style="text-align: center;">clic en el ticket</p>
+        <img src="../public/img/ticket.jpg" alt="">
+    </a>
+    
+    <script>
+
+        function clip(){
+            var content = document.getElementById('text').innerHTML;
+            // content.select();
+            // document.execCommand('copy');
+
+            navigator.clipboard.writeText(content)
+            .then(()=>{
+                alert("texto copiado");
+            })
+            .catch(err => {
+                alert("hay un error", err);
+            })           
+        }
+    </script>
+
+    <!-- <a href="http://localhost:3000/streaming-colegio-lhg" style="text-decoration: none; text-align: center;">
+        <p>Click en el ticket para ingresar al evento</p>
+        <img src="../public/img/ticket.jpg" alt="">
+        <form action="/streaming-colegio-lhg" method="post">
+        <input type="text" name="name" value="leyargoCity" style="display: none;">
+    </form>
+    </a> -->
+
+</body>
+</html>

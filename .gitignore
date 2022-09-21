@@ -1,0 +1,9 @@
+node_modules
+
+src/visits.json
+src/conexiones.json
+src/desconexiones.json
+
+
+
+.env
