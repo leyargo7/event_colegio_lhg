@@ -6,7 +6,7 @@ url: https://noche-artistica.onrender.com
 ## Tecnologías usadas para su desarrollo:
 ---
 
-Azure, NodeJS, Express, EJS, MongoDB  
+Azure, NodeJS, Express, EJS, MongoDB, Socket.IO
 
 
 En la página principal se encuentra un botón demo para adquirir el ticket de ingreso al evento
