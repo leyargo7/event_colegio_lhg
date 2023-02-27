@@ -12,7 +12,7 @@ Azure, NodeJS, Express, EJS, MongoDB, Socket.IO
 En la página principal se encuentra un botón demo para adquirir el ticket de ingreso al evento
 
 
-El código de ingreso al evento será enviada al email que utilizó en el proceso de compra
+El código de ingreso al evento se envía al email que utilizó en el proceso de compra
 
 En el email tendrá el enlace al evento. Se le pedirá que ingrese el código.
 
