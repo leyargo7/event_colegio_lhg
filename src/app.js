@@ -27,8 +27,6 @@ mongoose.connect(process.env.CONN_MONGO)
     .then(db => console.log('db is connected')) 
     .catch(err => console.log(err));
 
-//mongodb+srv://leyargo:pKSrcaA7msq7lukY@cluster0.yfbmh.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
-
 
 // middlewares
 app.use(morgan('dev'));
